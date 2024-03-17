@@ -1,17 +1,17 @@
 import React from "react";
 import "./Style.css";
 
-import Header from "./Component_folder_12/Header";
-import Navbar from "./Component_folder_12/Navbar";
+import HeaderCom from "./Component_folder/HeaderCom";
+import NavbarCom from "./Component_folder/NavbarCom";
 
-const Web12 = () => {
+const Web = () => {
 
     return (
         <>
-            <Navbar />
-            <Header />
+            <NavbarCom />
+            <HeaderCom />
         </>
     )
 }
 
-export default Web12;
+export default Web;

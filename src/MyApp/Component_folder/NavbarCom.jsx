@@ -1,6 +1,6 @@
 import React from "react";
 
-const Navbar = () => {
+const NavbarCom = () => {
     const [state, setState] = React.useState(false);
 
     return (
@@ -31,4 +31,4 @@ const Navbar = () => {
     );
 };
 
-export default Navbar;
+export default NavbarCom;

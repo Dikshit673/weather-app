@@ -10,7 +10,7 @@ function extractTimeIn12hr(timestamp) {
     return meridianTimeString;
 }
 
-const Header = () => {
+const HeaderCom = () => {
 
     const [api, setApi] = useState({});                                 // for api object
     const [newIcon, setNewIcon] = useState({});                         // for icon object
@@ -363,5 +363,4 @@ const Header = () => {
     )
 }
 
-export default Header;
-
+export default HeaderCom;
