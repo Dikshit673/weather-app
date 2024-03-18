@@ -241,15 +241,15 @@ const HeaderCom = () => {
         <>
             <section className="main-section">
                 <div className="container ">
-                    <br />
-                    <div className="row w-100 d-flex flex-column justify-content-center align-items-center">
+
+                    <div className="row ps-2 pe-2 d-flex flex-column justify-content-center align-items-center">
                         <div className="col-10 col-md-8 col-lg-6">
                             <div className="center-div ">
                                 <div className="container">
 
                                     <div className="container">
                                         <div className="row dis-flx">
-                                            <div className="col-6 mt-5">
+                                            <div className="col-10 col-md-8 col-lg-6 mt-5">
                                                 <div className="d-flex for-input-div">
                                                     <input className=" for-input-field" type="search" placeholder="Search" aria-label="Search" onKeyUp={handleKeyPress} onChange={eventsItem} value={input} />
                                                     <button className="btn  for-input-button" title="search" type="submit" onClick={searchItem}><i className="fa-solid fa-magnifying-glass"></i></button>
@@ -260,13 +260,13 @@ const HeaderCom = () => {
 
                                     <div className="container">
                                         <div className="row">
-                                            <div className="col-12 col-md-6 col-lg-6 mt-5 dis-flx">
+                                            <div className="col-6 mt-5 dis-flx">
                                                 <div className="for-icons bg-color">
                                                     <h2><i className={icons}></i></h2>
                                                     <p>{des}</p>
                                                 </div>
                                             </div>
-                                            <div className="col-12 col-md-6 col-lg-6 mt-5 dis-flx">
+                                            <div className="col-6 mt-5 dis-flx">
                                                 <div className="for-city bg-color">
                                                     <h2>{tempFl}<span>℃</span></h2>
                                                     <p> {name},{country}</p>
@@ -277,7 +277,7 @@ const HeaderCom = () => {
 
                                     <div className="container">
                                         <div className="row">
-                                            <div className="col-12 col-md-6 col-lg-6 mt-5">
+                                            <div className="col-6 mt-5">
                                                 <div className="bg-color">
                                                     <div className="text-center p-2">
                                                         <h3>Sunrise</h3>
@@ -286,7 +286,7 @@ const HeaderCom = () => {
                                                 </div>
                                             </div>
 
-                                            <div className="col-12 col-md-6 col-lg-6 mt-5">
+                                            <div className="col-6 mt-5">
                                                 <div className="bg-color">
                                                     <div className="text-center">
                                                         <h3>Sunset</h3>
@@ -310,7 +310,7 @@ const HeaderCom = () => {
 
                                     <div className="container">
                                         <div className="row mb-5 d-flex flex-wrap">
-                                            <div className="col-12 col-md-6 mt-5">
+                                            <div className="col-6 mt-5">
                                                 <div className=" bg-color p-4 p-lg-0">
                                                     <div className="row for-box-data">
                                                         <div className="col-3 displ-flx">
@@ -323,7 +323,7 @@ const HeaderCom = () => {
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div className="col-12 col-md-6 mt-5">
+                                            <div className="col-6 mt-5">
                                                 <div className=" bg-color p-4 p-lg-0">
                                                     <div className="row for-box-data">
                                                         <div className="col-3 displ-flx">
@@ -336,7 +336,7 @@ const HeaderCom = () => {
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div className="col-12 col-md-6 mt-5 mb-5">
+                                            <div className="col-6 mt-5 mb-5">
                                                 <div className=" bg-color p-4 p-lg-0">
                                                     <div className="row for-box-data">
                                                         <div className="col-3 displ-flx">
@@ -356,7 +356,7 @@ const HeaderCom = () => {
                             </div>
                         </div>
                     </div>
-                    <br />
+
                 </div>
             </section>
         </>

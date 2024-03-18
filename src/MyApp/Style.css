@@ -22,6 +22,10 @@ html {
     transition: all 0.1ms ease-out;
 }
 
+.new-back-col {
+    background-color: var(--bg-col);
+}
+
 .main_section .xyz {
     list-style: none;
     display: flex;
@@ -85,11 +89,15 @@ html {
         height: 10vh;
     }
 
-    .main_section .abc .xyz {
+    .main_section .xyz {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-end;
+    }
+
+    .main_section .nav-item {
+        margin: 0.3rem 0;
     }
 }
 

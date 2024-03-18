@@ -15,7 +15,7 @@ const NavbarCom = () => {
                             {state ? <i className="fa-solid fa-times"></i> : <i className="fa fa-bars"></i>}
                         </button>
 
-                        <div className={`collapse navbar-collapse ${state ? "show" : ""}`}>
+                        <div className={`collapse navbar-collapse new-back-col ${state ? "show" : ""}`}>
                             <ul className="navbar-nav ms-auto xyz">
                                 <li className="nav-item"><i className="fa-solid fa-house me-1 icons_anim" />Home</li>
                                 <li className="nav-item"><i className="fa-solid fa-address-card me-1 icons_anim" />About</li>
