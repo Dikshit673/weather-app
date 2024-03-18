@@ -4,10 +4,17 @@ html {
     font-size: 70%;
 }
 
+:root {
+    --bg-col: #f1f5fd;
+    --wht-col: #fff;
+    --blck-col: black;
+    --font-fam-1: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
 /* ------------------------------Navbar Starts */
 
 .main_section {
-    background-color: #f1f5fd;
+    background-color: var(--bg-col);
     height: 8vh;
 }
 
@@ -15,13 +22,7 @@ html {
     transition: all 0.1ms ease-out;
 }
 
-.main_section .abc {
-    background-color: #bedcff;
-    width: 100% !important;
-
-}
-
-.main_section .abc .xyz {
+.main_section .xyz {
     list-style: none;
     display: flex;
     justify-content: flex-start;
@@ -95,18 +96,18 @@ html {
 /* -----------------------Header Starts-------------- */
 
 .main-section {
-    background-color: #f1f5fd;
+    background-color: var(--bg-col);
     min-height: 100vh;
 }
 
 .center-div {
     width: 100%;
-    background-color: #fff;
+    background-color: var(--wht-col);
     border-radius: 2rem;
 }
 
 .for-input-div {
-    border: 1px solid black;
+    border: 1px solid var(--blck-col);
     border-radius: 1.5rem;
 }
 
@@ -141,7 +142,7 @@ html {
 }
 
 .bg-color {
-    background-color: #f1f5fd;
+    background-color: var(--bg-col);
     border-radius: 1.5rem;
 }
 
@@ -161,7 +162,7 @@ html {
 }
 
 .for-icons p {
-    font-family: cursive;
+    font-family: var(--font-fam-1);
     font-size: 1.4rem;
 }
 
@@ -175,19 +176,19 @@ html {
 
 .for-city h2 {
     font-size: 7rem;
-    font-family: cursive;
+    font-family: var(--font-fam-1);
     font-weight: 700;
 }
 
 .for-city h2 span {
     font-size: 7rem;
-    font-family: cursive;
+    font-family: var(--font-fam-1);
     font-weight: 700;
 }
 
 .for-city p {
     text-transform: capitalize;
-    font-family: cursive;
+    font-family: var(--font-fam-1);
     font-size: 1.4rem;
 }
 
@@ -214,17 +215,6 @@ html {
     }
 }
 
-td,
-th {
-    width: 30%;
-    display: flex;
-    justify-content: center;
-    font-size: 1.4rem;
-}
-
-th {
-    font-size: 1.6rem;
-}
 
 .displ-flx {
     display: flex;
@@ -234,7 +224,7 @@ th {
 
 .for-Time h2 {
     font-size: 2.5rem;
-    font-family: cursive;
+    font-family: var(--font-fam-1);
     font-weight: 700;
 }
 
@@ -251,7 +241,7 @@ th {
 
 .for-box-data h2 {
     font-size: 2rem;
-    font-family: cursive;
+    font-family: var(--font-fam-1);
     font-weight: 700;
 }
 
